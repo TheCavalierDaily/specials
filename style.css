@@ -1,0 +1,211 @@
+body {
+  font-family: "Helvetica", 'Open Sans', "Georgia", "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 160%;
+  margin: 0;
+  padding: 0;
+}
+
+.parallax-content {
+  max-width: 100%;
+  position: relative;
+  top: 500px;
+  padding: 50px;
+  background-color: #fff;
+}    
+
+.section-title-nav {
+  background-color: #000;
+  height: auto;
+  min-height: 35px;
+  font-size: 20px;
+  font-family: inherit;
+  color: #FFF;
+  text-align: left;
+  position: fixed;
+  top: 40px;
+  width: 100%;
+  padding: 5px 10px 0 55px;
+  display: none;
+  z-index: 99999;
+}
+
+.main-nav {
+  background-color: #1B1851;
+  height: auto;
+  min-height: 40px;
+  font-size: 20px;
+  font-family: inherit;
+  color: #FFF;
+  text-align: center;
+  position: relative;
+  top: 540px;
+  z-index: 9998;
+  line-height: 30px;
+}
+
+.main-nav img {
+  height: 0;
+}
+
+.main-nav-scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1B1851;
+} 
+
+.masthead {
+  height: 120px;
+  background-color: #1B1851;
+  padding: 10px 0 10px 0;
+}      
+
+.title {
+  margin-top: 200px;
+  height: auto;
+  width: 40%;
+  min-width: 400px;
+  float: right;
+  background-color: rgba(255,255,255,0.6);
+  box-shadow: 1px 1px 7px rgba(0,0,0,0.5);
+  color: #000;
+  font-family: inherit;
+  font-size: 30px;
+  line-height: 100%;
+  padding: 20px 5px;
+} 
+
+.nav-title {
+  display: none;
+  float: left;
+  padding: 5px 0 0 55px;
+}
+
+.nav-links {
+  padding-top: 5px;
+  float: right;
+  height: 100%;
+  width: 400px;
+}
+
+.main-nav a, .topics-nav a {
+  font-size: 20px;
+  padding-right: 40px;
+  font-family: inherit;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.topics-nav a {
+  padding: 12px 15px 12px 15px;
+  margin-top: 10px;
+}
+
+.main-nav a {
+  padding: 9px 15px 9px 15px;
+}
+
+.topics-link-active {
+  background-color: #1B1851;
+}
+
+.main-link-active {
+  background-color: #000;
+}
+
+.goup-container {
+  background-color: #1B1851;
+  box-shadow: 1px 1px 7px rgba(0,0,0,0.5);
+}
+
+.escape {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 40px;
+  width: 80px;
+  background-color: #1B1851;
+  box-shadow: 1px 1px 7px rgba(0,0,0,0.5);
+  display: none;
+  text-align: center;
+  line-height: 100%;
+  border-radius: 10px;
+}
+
+.escape a {
+  color: #FFF;
+  font-family: inherit;
+  font-size: 15px;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding-top: 4px;
+}
+
+.small-logo {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  height: 80px;
+  width: 80px;
+  background-color: #1B1851;
+  box-shadow: 1px 1px 7px rgba(0,0,0,0.5);
+  display: none;
+  text-align: center;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #00007a;
+  font-family: inherit;
+  text-align: left;
+  font-size: 30px;
+  padding-top: 105px;
+}
+
+a {
+  color: #00007a;
+  text-decoration: none;
+}
+
+.dropquote {
+  font-size: 25px;
+  padding: 20px 0;
+  margin: 20px 0 30px -15%;
+  color: #BBB;
+  width: 130%;
+  height: auto;
+  font-style: italic;
+  line-height: 150%;
+  text-align: center;
+  font-family: "Georgia", serif;
+}
+
+.qmarks {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Garamond", serif;
+  padding: 0 20px;
+}
+
+.quote {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.qcredit {
+  float: right;
+  font-size: 20px;
+  color: #AAA;
+}
