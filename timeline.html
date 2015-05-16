@@ -1,0 +1,122 @@
+<!doctype html>
+<head>
+<title>CD Topics: Rolling Stone in retrospect</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://d3qrzjjyysvn1n.cloudfront.net/20150114X1gk1CCO4/images/favicon.ico">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="jquery.min.js"></script>
+<script src="goup.min.js"></script>
+<script>  
+  $(document).ready(function(){
+    $.goup();
+   });
+
+  $(window).scroll(function() {
+    if( $(this).scrollTop() > 540 ) {
+      $(".main-nav").addClass("main-nav-scrolled");
+      $(".section-title-nav").fadeIn(100);
+      $(".escape").fadeIn();
+      $(".nav-title").show();
+      $("#timeline-link").addClass("main-link-active");
+    }
+    else {
+      $(".main-nav").removeClass("main-nav-scrolled");
+      $(".section-title-nav").fadeOut(100);
+      $(".escape").fadeOut();
+      $(".nav-title").hide();
+      $("#timeline-link").removeClass("main-link-active");
+    }
+
+   /* var newsElementOffset = $("#news").offset().top,
+        newsDistance      = (newsElementOffset - 150 );
+
+    if( $(this).scrollTop() > newsDistance ) {
+      $("#news-link").addClass("main-link-active");
+    }
+
+    else {
+      $("#news-link").removeClass("main-link-active");
+    }
+
+    var opinionElementOffset = $("#opinion").offset().top,
+        opinionDistance      = (opinionElementOffset - 150 );
+
+    if( $(this).scrollTop() > opinionDistance ) {
+      $("#opinion-link").addClass("main-link-active");
+      $("#news-link").removeClass("main-link-active");
+    }
+
+    else {
+      $("#opinion-link").removeClass("main-link-active");
+    }
+
+    var timelineElementOffset = $("#timeline").offset().top,
+        timelineDistance      = (timelineElementOffset - 150 );
+
+    if( $(this).scrollTop() > timelineDistance ) {
+      $("#timeline-link").addClass("main-link-active");
+      $("#opinion-link").removeClass("main-link-active");
+    }
+
+    else {
+      $("#timeline-link").removeClass("main-link-active");
+    } */
+  }); 
+
+
+</script>
+<style type="text/css">
+
+.parallax-background {
+  top: 0px;
+  background: url("https://s3.amazonaws.com/media.cav/10109_phipsimbronfinf.jpg");
+  height: 540px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+<div class="parallax-background">
+  <div class="masthead">
+    <a href="http://cavalierdaily.com/"><img src="masthead.png" alt="" height="120px" width="847px"></a>
+  </div>
+  <div class="title">
+    <b>Rolling Stone in retrospect:</b><br> Timeline
+  </div>
+</div>
+
+<div class="section-title-nav">
+  Timeline
+</div>
+
+<div class="main-nav">
+  <div class="nav-title">Rolling Stone in retrospect</div>
+    <div class="nav-links">
+      <a href="/rollingstone.php" id="i-link">I</a>
+      <a href="/rollingstonetimeline.php" id="timeline-link">Timeline</a>
+    </div>
+</div>
+
+<div class="parallax-content">
+<div style="width: 600px; margin: 0 auto; vertical-align: middle;">
+ 
+<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0Aj-eF_zOwHgtdENnTE1wUlVJb1RnRUN3UXQyOGVQYkE&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
+
+</div>
+</div>              
+
+<div class="escape">
+  <a href="http://cavalierdaily.com/">return to main site</a>
+</div>
+
+</body>
+</html>
